@@ -114,6 +114,7 @@ go build -o ./dist/podgrab ./main.go
 ``` bash
 sudo mkdir -p /usr/local/bin/podgrab
 mv -v dist/* /usr/local/bin/podgrab
+mv -v dist/.* /usr/local/bin/podgrab
 ```
 
 Restart the service (if using)
